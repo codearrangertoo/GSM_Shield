@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map For GSM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GSM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+LibVer	KEYWORD2
+InitSerLine	KEYWORD2
+TurnOn	KEYWORD2
+EnableDTMF	KEYWORD2
+GetDTMFSignal	KEYWORD2
+SetSpeaker	KEYWORD2
+CheckRegistration	KEYWORD2
+IsRegistered	KEYWORD2
+IsInitialized	KEYWORD2
+CallStatus	KEYWORD2
+CallStatusWithAuth	KEYWORD2
+PickUp	KEYWORD2
+HangUp	KEYWORD2
+Call	KEYWORD2
+SetSpeakerVolume	KEYWORD2
+IncSpeakerVolume	KEYWORD2
+DecSpeakerVolume	KEYWORD2
+SendDTMFSignal	KEYWORD2
+IsUserButtonEnable	KEYWORD2
+DisableUserButton	KEYWORD2
+EnableUserButton	KEYWORD2
+SendSMS	KEYWORD2
+IsSMSPresent	KEYWORD2
+GetSMS	KEYWORD2
+GetAuthorizedSMS	KEYWORD2
+DeleteSMS	KEYWORD2
+GetPhoneNumber	KEYWORD2
+WritePhoneNumber	KEYWORD2
+ComparePhoneNumber	KEYWORD2
+Echo	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
