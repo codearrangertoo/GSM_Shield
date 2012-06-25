@@ -10,6 +10,7 @@
  http://www.futurashop.it
  */
 
+#include <SoftwareSerial.h>
 #include <GSM_Shield.h>
 //for enable disable debug rem or not the string       #define DEBUG_PRINT
 // definition of instance of GSM class

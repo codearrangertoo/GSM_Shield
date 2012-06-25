@@ -7,10 +7,10 @@
 #ifndef __GSM_Shield
 #define __GSM_Shield
 
-#include "WProgram.h"
-#include "NewSoftSerial.h"
+#include <SoftwareSerial.h>
+#include <Arduino.h>
 
-#define GSM_LIB_VERSION 101 // library version X.YY (e.g. 1.00)
+#define GSM_LIB_VERSION 102 // library version X.YY (e.g. 1.00)
 
 // if defined - debug print is enabled with possibility to print out 
 // debug texts to the terminal program
@@ -30,8 +30,8 @@
 
 
 // pins definition
-#define GSM_ON              8 // connect GSM Module turn ON to pin 77 
-#define GSM_RESET           9 // connect GSM Module RESET to pin 35
+#define GSM_ON              6 // connect GSM Module turn ON to pin 77 
+#define GSM_RESET           7 // connect GSM Module RESET to pin 35
 //#define DTMF_OUTPUT_ENABLE  71 // connect DTMF Output Enable not used
 #define DTMF_DATA_VALID     14 // connect DTMF Data Valid to pin 14
 #define DTMF_DATA0          72 // connect DTMF Data0 to pin 72

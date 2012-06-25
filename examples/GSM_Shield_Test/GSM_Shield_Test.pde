@@ -10,7 +10,8 @@
  http://www.open-electronics.org
  http://www.futurashop.it
  */
- 
+
+#include <SoftwareSerial.h> 
 #include <GSM_Shield.h>
 
 //**************************************************************************
